@@ -1,0 +1,12 @@
+h1 {
+	margin-top: 1em !important;
+}
+
+body {
+  background: #F0F0F3 !important;
+}
+
+.login-box {
+  margin: 100px 0;
+  padding: 40px 20px 0 20px;
+}
