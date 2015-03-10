@@ -1,58 +1,117 @@
 <!doctype html>
 <html class="no-js" lang="">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <!-- Place favicon.ico in the root directory -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/case.css">
-    <link rel="stylesheet" href="css/foundation.css">
-    <link rel="stylesheet" href="foundation-icons/foundation-icons.css">
-    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-  </head>
-  <body class="login">
-    <!--[if lt IE 8]>
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="css/foundation.css">
+  <link rel="stylesheet" href="css/sidebar.css">
+  <link rel="stylesheet" href="foundation-icons/foundation-icons.css">
+  <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body class="login">
+  <!--[if lt IE 8]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <!-- Add your site or application content here -->
-    <div class="icon-bar vertical five-up">
-      <a class="item">
-        <i class="fi-home"></i>
-        <label>Home</label>
-      </a>
-      <a class="item">
-        <i class="fi-bookmark"></i>
-        <label>Bookmark</label>
-      </a>
-      <a class="item">
-        <i class="fi-info"></i>     
-        <label>Info</label>
-      </a>
-      <a class="item">
-        <i class="fi-mail"></i>     
-        <label>Mail</label>
-      </a>
-      <a class="item">
-        <i class="fi-like"></i>     
-        <label>Like</label>
-      </a>
-    </div>
+  <nav class="top-bar" data-topbar="" role="navigation">
+    <!-- Title -->
+    <ul class="title-area">
+    <li class="name center"><h1><a href="#">Watson</a></h1></li>
+  </ul>
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/foundation.js"></script>
-    <script>
+    <!-- Top Bar Section -->
 
-    </script>
-  </body>
+    <section class="top-bar-section">
+
+      <!-- Top Bar Left Nav Elements -->
+      <ul class="left">
+
+        <!-- Search | has-form wrapper -->
+        <li class="has-form">
+          <div class="row collapse">
+            <div class="large-8 small-9 columns">
+              <input placeholder="Ask me anything." type="text">
+            </div>
+            <div class="large-4 small-3 columns">
+              <!-- <a href="#" class="alert button expand">Search</a> -->
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+  </nav>
+  <nav class="side-bar" data-sidebar="" role="navigation">
+    <!-- Title -->
+    <ul class="title-area">
+    <li class="name center"><h1><a href="#">Watson</a></h1></li>
+  </ul>
+
+    <!-- side Bar Section -->
+
+    <section class="side-bar-section">
+
+      <!-- side Bar Left Nav Elements -->
+      <ul class="left">
+
+        <!-- Search | has-form wrapper -->
+        <li class="has-form">
+          <div class="row collapse">
+            <div class="large-8 small-9 columns">
+              <input placeholder="Ask me anything." type="text">
+            </div>
+            <div class="large-4 small-3 columns">
+              <!-- <a href="#" class="alert button expand">Search</a> -->
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+  </nav>
+  <!-- Side Navigation -->
+  <div class="icon-bar vertical five-up">
+    <a class="item">
+      <i class="fi-home"></i>
+      <label>Overview</label>
+    </a>
+    <a class="item">
+      <i class="fi-bookmark"></i>
+      <label>Victim</label>
+    </a>
+    <a class="item">
+      <i class="fi-map"></i>
+      <label>POI</label>
+    </a>
+    <a class="item">
+      <i class="fi-mail"></i>
+      <label>Tips</label>
+    </a>
+    <a class="item">
+      <i class="fi-foot"></i>
+      <label>Forensics</label>
+    </a>
+  </div>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script>
+    window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
+  </script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/foundation.js"></script>
+  <script>
+  </script>
+</body>
+
 </html>

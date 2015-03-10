@@ -3117,7 +3117,9 @@ meta.foundation-mq-topbar {
   width: 100%;
   font-size: 0;
   display: inline-block;
-  background: #333333; }
+  background: #333333; 
+  height: 1000px !important;
+}
   .icon-bar > * {
     text-align: center;
     font-size: 1rem;

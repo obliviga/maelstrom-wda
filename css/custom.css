@@ -1,0 +1,15 @@
+.top-bar {
+  background: #333 none repeat scroll 0% 0%;
+  overflow: visible;
+  width: 75%;
+  height: 5.813rem !important;
+  float: left;
+}
+
+.side-bar {
+  background: #333 none repeat scroll 0% 0%;
+  overflow: visible;
+  width: 25%;
+  height: 5.813rem !important;
+  float: right;
+}
