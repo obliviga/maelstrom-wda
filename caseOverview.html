@@ -20,7 +20,7 @@
   <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 
-<body class="login">
+<body>
   <!--[if lt IE 8]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -28,8 +28,8 @@
   <nav class="top-bar" data-topbar="" role="navigation">
     <!-- Title -->
     <ul class="title-area">
-    <li class="name center"><h1><a href="#">Watson</a></h1></li>
-  </ul>
+      <li class="name"><h1><a href="#">Watson</a></h1></li>
+    </ul>
 
     <!-- Top Bar Section -->
 
@@ -50,35 +50,36 @@
           </div>
         </li>
       </ul>
+      <ul class="right">
+        <li class="has-dropdown not-click"><a href="#">Detective Anderson</a>
+          <ul class="dropdown"><li class="title back js-generated"><h5><a href="javascript:void(0)">Back</a></h5></li><li class="parent-link hide-for-large-up"><a class="parent-link js-generated" href="#">Item 1</a></li>
+            <li><label>Stuff</label></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Settings</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Log Out</a></li>
+          </ul>
+        </li>
+        <li class="divider"></li>
+      </ul>
     </section>
   </nav>
-  <nav class="side-bar" data-sidebar="" role="navigation">
+
+  <!--     Side Bar Section    -->
+  <nav class="side-bar vertical-align" data-sidebar="" role="navigation">
     <!-- Title -->
     <ul class="title-area">
-    <li class="name center"><h1><a href="#">Watson</a></h1></li>
-  </ul>
-
-    <!-- side Bar Section -->
-
+      <li class="name center"><h1><a href="#">Case ATK0315</a></h1></li>
+    </ul>
     <section class="side-bar-section">
 
       <!-- side Bar Left Nav Elements -->
       <ul class="left">
 
-        <!-- Search | has-form wrapper -->
-        <li class="has-form">
-          <div class="row collapse">
-            <div class="large-8 small-9 columns">
-              <input placeholder="Ask me anything." type="text">
-            </div>
-            <div class="large-4 small-3 columns">
-              <!-- <a href="#" class="alert button expand">Search</a> -->
-            </div>
-          </div>
-        </li>
       </ul>
     </section>
   </nav>
+
   <!-- Side Navigation -->
   <div class="icon-bar vertical five-up">
     <a class="item">
@@ -86,8 +87,8 @@
       <label>Overview</label>
     </a>
     <a class="item">
-      <i class="fi-bookmark"></i>
-      <label>Victim</label>
+      <i class="fi-torso"></i>
+      <label>Victim </label>
     </a>
     <a class="item">
       <i class="fi-map"></i>
