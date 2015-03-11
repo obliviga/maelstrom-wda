@@ -14,7 +14,7 @@
   float: right;
 }
 
-.vertical-align ul[class="title-area"] {
+.vertical-align ul {
   position: relative;
   top: 50%;
   	-webkit-transform: translateY(-50%);
@@ -23,11 +23,11 @@
 }
 
 .canvas-container {
-  background-color: brown;
+  background-color: black !important;
 }
 
 .persistant-container {
-  background-color: pink;
+  background-color: blue !important;
 }
 
 .side-menu {
