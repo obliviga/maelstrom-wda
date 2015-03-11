@@ -13,11 +13,11 @@ svg {
 }
 
 .node text {
-  font: 10px sans-serif;
+  font: 22px sans-serif;
   pointer-events: none;
-  text-anchor: middle;
+  text-anchor: end;
 }
-
+  
 line.link {
   fill: none;
   stroke: #9ecae1;
@@ -34,8 +34,8 @@ var width = 960,
     root;
 
 var force = d3.layout.force()
-    .linkDistance(80)
-    .charge(-120)
+    .linkDistance(180)
+    .charge(-360)
     .gravity(.05)
     .size([width, height])
     .on("tick", tick);

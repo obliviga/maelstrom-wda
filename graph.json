@@ -7,20 +7,10 @@
     {
      "name": "cluster",
      "children": [
-      {"name": "AgglomerativeCluster", "size": 70074},
-      {"name": "CommunityStructure", "size": 70074},
-      {"name": "HierarchicalCluster", "size": 70074},
-      {"name": "MergeEdge", "size": 70074}
-     ]
-    },
-    {
-     "name": "graph",
-     "children": [
-      {"name": "BetweennessCentrality", "size": 70074},
-      {"name": "LinkDistance", "size": 70074},
-      {"name": "MaxFlowMinCut", "size": 7840},
-      {"name": "ShortestPaths", "size": 5914},
-      {"name": "SpanningTree", "size": 3416}
+      {"name": "Roger", "size": 70074},
+      {"name": "Gang", "size": 70074},
+      {"name": "Sammy", "size": 70074},
+      {"name": "Stuff", "size": 70074}
      ]
     },
     {
