@@ -33,14 +33,13 @@
 
   var visualization = d3plus.viz()
     .container("#viz")
-    .type("network")
+    .type("rings")
     .edges({
       "label": "action",
       "value": connections,
-      "arrows": true,
-      "interpolate": "cardinal"
+      "arrows": true
     })
-    // .focus("Roger Santana")
+    .focus("Roger Santana")
     .draw()
 
 </script>
