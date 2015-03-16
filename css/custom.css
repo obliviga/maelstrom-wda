@@ -22,14 +22,21 @@
   	transform: translateY(-50%);
 }
 
-.canvas-container {
-  background-color: black !important;
+.nav-bar {
+  background-color: #41484D;
+  height: 100px;
 }
 
-.persistant-container {
-  background-color: blue !important;
+.nav-bar img {
+  position: relative;
+  top: 50%;
+  transform: translateY(70%);
 }
 
-.side-menu {
-  background-color: green;
+.watson-brand {
+  position: relative;
+  top: 50%;
+  transform: translateY(-70%);
+  color: #DFE9E9;
+  margin-left: 4em;
 }
