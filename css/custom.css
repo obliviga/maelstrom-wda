@@ -33,6 +33,15 @@
   transform: translateY(70%);
 }
 
+.nav-bar input {
+  height: 70px;
+  margin-left: 19em;
+  position: relative;
+  top: 50%;
+  transform: translateY(-105%);
+  width: 24em;
+}
+
 .watson-brand {
   position: relative;
   top: 50%;
@@ -40,3 +49,37 @@
   color: #DFE9E9;
   margin-left: 4em;
 }
+
+input[type="text"] {
+  background-color : #CDCDCD; 
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: none;
+  border-bottom: solid 2px #CDCDCD;
+  transition: border 0.3s;
+}
+input[type="text"]:focus,
+input[type="text"].focus {
+  border-bottom: solid 2px #01B09D;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
