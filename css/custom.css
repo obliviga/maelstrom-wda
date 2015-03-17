@@ -27,7 +27,7 @@
   height: 100px;
 }
 
-.nav-bar img {
+.logo {
   position: relative;
   top: 50%;
   transform: translateY(70%);
@@ -39,7 +39,7 @@
   position: relative;
   top: 50%;
   transform: translateY(-105%);
-  width: 24em;
+  width: 35em;
 }
 
 .watson-brand {
@@ -65,14 +65,58 @@ input[type="text"].focus {
   border-bottom: solid 2px #01B09D;
 }
 
+::-webkit-input-placeholder {
+  color: #3C4646;
+  font-size: 20px;
+}
+::-moz-placeholder {
+  color: #3C4646;
+  font-size: 20px;
+}
+:-ms-input-placeholder {
+  color: #3C4646;
+  font-size: 20px;
+}
 
+input:-moz-placeholder {
+  color: #3C4646;
+  font-size: 20px;
+}
 
+.profile-dropdown {
+    color: #dfe9e9;
+    font-size: 17px;
+    margin-left: 58%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-240%);
+}
 
+.profile-dropdown i {
+  color: #dfe9e9;
+  font-size: 17px;
+  margin-left: 4%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-70%);
+}
 
+.profile-pic {
+  margin-left: 25px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-120%);
+}
 
+hr.vertical {
+  width: 0%;
+  height: 100%;
+}
 
+.case-name {
+  
 
-
+}
 
 
 
