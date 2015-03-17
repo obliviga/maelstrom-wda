@@ -1,14 +1,20 @@
 /*Global Styles*/
 
-p, h1{
+p, h1, h2, i{
 	color: #ECF0F2;
+}
+
+
+
+.right {
+	float: right;
 }
 
 /*Side bar nav styling*/
 
 .side-nav{
 	background-color: #41484D;
-	min-height: 695px;
+	height: 595px;
 /*	width: 4.167% !important;*/
 }
 
@@ -16,7 +22,6 @@ p, h1{
 	height: 100px;
   position: relative;
   top: 50%;
-  transform: translateY(50%);
 }
 
 .side-nav-icons i {
@@ -28,18 +33,21 @@ p, h1{
 	margin-top: 4px;
 }
 
+/*Canvas bar nav styling*/
+
 .everything {
 	transform: translateY(-53px);
 }
 
 .canvas {
 	background-color: #121A20;
-	min-height: 695px;
+	height: 595px;
 /*	width: 68.75% !important;*/
 }
 
 .featured-content {
-
+	height: 300px;
+	background-color: #1F2C36;
 }
 
 
@@ -47,7 +55,7 @@ p, h1{
 
 .persistent {
 	background-color: #192020;
-	min-height: 695px;
+	height: 595px;
 /*	width: 27.083% !important;*/
 }
 
