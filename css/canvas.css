@@ -50,7 +50,17 @@ p, h1, h2, i{
 	background-color: #1F2C36;
 }
 
+.victim-name {
+	line-height: 1px;
+}
 
+.victim-details {
+	line-height: 20px;
+}
+
+.POI-overview {
+	background-color: #006D5D;
+}
 /*Persistent side bar nav styling*/
 
 .persistent {
