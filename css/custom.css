@@ -83,6 +83,11 @@ input:-moz-placeholder {
   font-size: 20px;
 }
 
+.profile {
+  margin-left: 50px;
+  margin-top: -5px;
+}
+
 .profile-dropdown {
     color: #dfe9e9;
     font-size: 17px;
@@ -102,23 +107,29 @@ input:-moz-placeholder {
 }
 
 .profile-pic {
-  margin-left: 25px;
+  margin-left: 778px;
   position: absolute;
   top: 50%;
   transform: translateY(-120%);
 }
 
-hr.vertical {
-  width: 0%;
-  height: 100%;
-}
-
 .case-name {
-  
-
+  color: #dfe9e9;
+  font-size: 17px;
+  margin-left: 64em;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-240%);
 }
 
-
+.case-name i {
+  color: #dfe9e9;
+  font-size: 17px;
+  margin-left: 4px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-70%);
+}
 
 
 
