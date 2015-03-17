@@ -1,0 +1,26 @@
+/*Side bar nav styling*/
+
+.side-nav{
+	background-color: #41484D;
+	min-height: 1286px;
+}
+
+.side-nav-icons {
+	height: 100px;
+  position: relative;
+  top: 50%;
+  transform: translateY(50%);
+}
+
+.side-nav-icons i {
+	font-size: 40px;
+	color: #ECF0F2;
+}
+
+.canvas {
+/*	background-color: black;*/
+}
+
+.persistent {
+	background-color: green;
+} 
