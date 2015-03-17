@@ -1,8 +1,15 @@
+/*Global Styles*/
+
+p, h1{
+	color: #ECF0F2;
+}
+
 /*Side bar nav styling*/
 
 .side-nav{
 	background-color: #41484D;
-	min-height: 1286px;
+	min-height: 695px;
+/*	width: 4.167% !important;*/
 }
 
 .side-nav-icons {
@@ -18,15 +25,56 @@
 }
 
 .side-nav-icons-label {
-	color: #ECF0F2;
 	margin-top: 4px;
 }
 
-
-.canvas {
-/*	background-color: black;*/
+.everything {
+	transform: translateY(-53px);
 }
 
+.canvas {
+	background-color: #121A20;
+	min-height: 695px;
+/*	width: 68.75% !important;*/
+}
+
+.featured-content {
+
+}
+
+
+/*Persistent side bar nav styling*/
+
 .persistent {
-	background-color: green;
-} 
+	background-color: #192020;
+	min-height: 695px;
+/*	width: 27.083% !important;*/
+}
+
+.persistent-tabs-group {
+	border-bottom: solid #4CB38F;
+}
+
+.persistent-tabs {
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
