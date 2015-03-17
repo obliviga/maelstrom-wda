@@ -83,6 +83,12 @@ input:-moz-placeholder {
   font-size: 20px;
 }
 
+.chat-triangle {
+    color: #CDCDCD;
+    font-size: 17px;
+    transform: rotate(90deg) translateX(-730%) translateY(-1628%);
+}
+
 .profile {
   margin-left: 50px;
   margin-top: -5px;
