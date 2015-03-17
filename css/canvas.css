@@ -124,7 +124,11 @@ p, h1, h2, i{
   	transform: translateY(-50%);
 }
 
-
+.timestamp {
+	color: #C8D2D2;
+  font-size: 10px;
+	line-height: 47px;
+}
 
 
 
