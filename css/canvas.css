@@ -4,8 +4,6 @@ p, h1, h2, i{
 	color: #ECF0F2;
 }
 
-
-
 .right {
 	float: right;
 }
@@ -77,10 +75,54 @@ p, h1, h2, i{
 	text-align: center;
 }
 
+.updates-tab {
+	background-color: #4CB38F;
+}
 
+.update-counter {
+	background-color: #FFFFFF;
+	color: #4CB38F;
+	height: 10px;
+	width: 10px;
+}
 
+.update h3, h6 {
+	color: #4CB38F;
+}
 
+.update h4, h5 {
+	color: #ECF0F2;
+	line-height: 1px;
+}
 
+.update h6 {
+	line-height: 1px;
+	font-weight: 100;
+}
+
+.update-part-1 {
+	background-color: #1F2C36;
+}
+
+.update-part-2 {
+	background-color: #192020;
+}
+
+.review {
+  height: 2em;
+  width: 5em;
+	color: #DFE9E9;
+	background-color: #54496A;
+}
+
+.review p {
+	font-size: 10px;
+  position: relative;
+  top: 50%;
+  	-webkit-transform: translateY(-50%);
+  	-ms-transform: translateY(-50%);
+  	transform: translateY(-50%);
+}
 
 
 
